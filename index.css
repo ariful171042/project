@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@0,200;0,600;0,700;0,900;1,300;1,400;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth ;
+}
+
+body{
+    font-family: 'Fjalla One', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+background-color: whitesmoke;
+}
+header .logo h1{
+    color: #444;
+    text-transform: uppercase;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 25px 0;
+}
+.traveling-bg-conteiner{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.america{
+    background-image: url(./img/joshua-rondeau-WU4aZ5l7YEU-unsplash.jpg);
+}
+.london {
+    background-image: url(./img/karsten-winegeart-fd1cQ3mmBTE-unsplash.jpg);
+}
+.japan{
+    background-image:url(./img/mike-swigunski-6SgLJg7kM7E-unsplash.jpg);
+}
+.qater{
+    background-image: url(./img/simon-english-48nerZQCHgo-unsplash.jpg);
+}
+.dubai {
+    background-image: url(./img/iswanto-arif-u0lAovoUsaU-unsplash.jpg);
+}
+
+.traveling-bg-conteiner h1 {
+    color: rgb(253, 252, 252);
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 250px 0 0 75px;
+    margin-bottom: 40px;
+}
+
+.qaterhead h1 {
+    color: rgb(228, 166, 51);
+}
+
+.traveling-datels{
+    margin: 75px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.traveling-datels h1{
+    text-transform: uppercase;
+    font-size:3rem ;
+    color:rgba(255, 68, 0, 0.842);
+    margin-bottom: 25px;
+}
+.london-text h1{
+    color: rgb(19, 212, 19);
+}
+.japan-text h1{
+    color: rgb(50, 219, 231);
+}
+.qater-text h1{
+    color: rgb(228, 166, 51);
+}
+.dubai-text h1 {
+    color: rgb(59, 219, 59);
+}
+.traveling-datels p{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+.traveling-datels a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color:rgba(255, 68, 0, 0.842) ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 25px;
+
+}
+.london-text a {
+    background-color: rgb(20, 228, 20);
+}
+.japan-text a{
+    background-color: rgb(50, 219, 231);
+}
+.qater-text a {
+    background-color:rgb(228, 166, 51) ;
+}
+.dubai-text a{
+    background-color: rgb(59, 219, 59);
+}
+
+.traveling-datels a:hover {
+    background-color:rgba(172, 59, 18, 0.842) ;
+
+}
+.london-text a:hover{
+    background-color: green;
+}
+.japan-text a:hover {
+    background-color: rgb(6, 135, 145);
+}
+.qater-text a:hover{
+    background-color: rgb(179, 122, 17);
+}
+.dubai-text a:hover{
+    background-color:green ;
+}
+footer p {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
